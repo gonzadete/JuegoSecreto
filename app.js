@@ -44,7 +44,7 @@ function generarNumeroSecreto() {
          return numeroGenerado;
    }
   }   
-   
+}  
 function condicionesIniciales(){
    asignarTextoElemento('h1', 'Juego del amigo imaginario');   
    asignarTextoElemento('p', `Indica un número del 1 al ${numeroMaximo}`);   
